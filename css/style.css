@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+body {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/860008/quoteMachine_background.png);
+  color: #eaeae1;
+  @import url('https://fonts.googleapis.com/css?family=Pacifico');
+}
+
+
+/* -- TEXT -- */
+#quoteBox h4 {
+  font-style: italic;
+  text-align: right;
+  margin-right: 10px;
+}
+.pacifico {
+  font-family: Pacifico !important;
+  letter-spacing: 2px;
+}
+
+/* -- OUTER BOX -- */
+.outerBox {
+  margin-top: 20px;
+}
+
+/* -- QUOTEBOX -- */
+#quoteBox {
+  max-width: 900px;
+  min-height: 200px;
+  margin: 40px auto 30px;
+  padding: 10px 30px;
+  background-color: rgba(0,0,0, .3);
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/* -- BUTTONS -- */
+button {
+  margin: 0px 10px;
+}
+.fa-twitter {
+  margin-right: 5px;
+}
