@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 body {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/860008/quoteMachine_background.png);
+  background: linear-gradient(to bottom right, #00416A, #E4E5E6);
+  height: 100vh;
   color: #eaeae1;
-  @import url('https://fonts.googleapis.com/css?family=Pacifico');
 }
 
 
@@ -28,15 +28,22 @@ body {
   min-height: 200px;
   margin: 40px auto 30px;
   padding: 10px 30px;
-  background-color: rgba(0,0,0, .3);
-  border: 1px solid black;
+  background-color: rgba(0,0,0, .2);
+  box-shadow: 5px 6px 16px rgba(0,0,0, 0.4);
   border-radius: 10px;
 }
 
 /* -- BUTTONS -- */
-button {
+.btn {
   margin: 0px 10px;
+  outline: 0;
+  border: none;
 }
+
+.btn:focus, .btn:active {
+  outline: 0;
+}
+
 .fa-twitter {
   margin-right: 5px;
 }
